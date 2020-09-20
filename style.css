@@ -237,3 +237,12 @@ section.linguas .center{
 div.span2 span{
     color: black;
 }
+
+
+.footer{
+    position: relative;
+    left: 37%;
+    font-size: 14px;
+    text-align: center;
+    color: #8A8D91;
+}
