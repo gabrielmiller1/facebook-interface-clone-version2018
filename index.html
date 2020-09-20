@@ -1,17 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <title>Document</title>
+    <title>Facebook Old Interface Clone</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
     <header>
         <div class="center">
             <div class="logo">
-                <h2>Facebook</h2>
+                <h1>facebook</h1>
             </div>
 
             <form method="post" class="form-login">
@@ -24,20 +27,25 @@
                     <input type="password">
                 </div>
                 <div class="form-element">
-                    <input type="submit" name="acao" value="Enviar">
+                    <input type="submit" name="acao" value="Entrar">
                 </div>
+                <div class="span"><span>Esqueceu a conta ?</span></div>
             </form>
             <div class="clear"></div>
         </div>
-    </header>   
-    
+    </header>
+
     <section class="main">
-            <div class="center">
-                <div class="img-pessoas">
-                    <img src="/images/pessoas.png" alt="imagem-facebook">
-                </div>
+        <div class="center">
+            <div class="frase">
+                <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+            </div>
+
+            <div class="img-pessoas">
+                <img src="/images/tela2.png" alt="imagem-facebook">
+            </div>
             <div class="abrir-conta">
-                <h2>Abra sua conta</h2>
+                <h3>Abra uma conta</h3>
                 <h3>É gratuito e sempre será.</h3>
 
                 <form action="" class="criar-conta">
@@ -50,24 +58,99 @@
                     </div>
 
                     <div class="w100">
-                        <input placeholder="E-mail" type="text">
+                        <input placeholder="Celular ou e-mail" type="text">
                     </div>
 
                     <div class="w100">
-                        <input placeholder="Senha" type="text">
+                        <input placeholder="Nova senha" type="text">
                     </div>
 
+                    <h3 id="data">Data de nascimento</h3>
+                    <select name="nascimento-dia" class="nascimento">
+                        <option value="0">05</option>
+                        <option value="2">06</option>
+                    </select>
+
+                    <select name="nascimento-ano" class="nascimento">
+                        <option value="0">Junho</option>
+                    </select>
+
+                    <select name="nascimento-mes" class="nascimento">
+                        <option value="0">1998</option>
+                    </select>
+
                     <div class="w100">
-                        <input value="Cadastre-se" type="submit">
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="feminino">
+                            <h2>Feminino</h2>
+                        </div>
+
+                        <div class="input-radio">
+                            <input type="radio" name="sexo" value="masculino">
+                            <h2>Masculino</h2>
+                        </div>
+                        <div class="clear"></div>
+                        <p class="frase2">
+                            Ao clicar em Cadastre-se, você concorda com nossos Termos, Politicas de Dados e Politicas
+                            de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                        </p>
+                        <div class="w100">
+                            <input value="Cadastre-se" type="submit">
+                        </div>
+                        <div  class="span2">
+                            <span>Criar um pagina para uma celebridade, banda ou empresa.</span>
+                        </div>
+                        <div class="clear"></div>
                     </div>
                 </form>
-                
             </div>
-
             <div class="clear"></div>
-            </div>
-                
+        </div>
     </section>
- 
+
+    <section class="linguas">
+        <div class="center">
+            <a href="ñ" class="selected-lingua">Portugues (BR)</a>
+            <a href="ñ">Inglês (EN)</a>
+            <a href="ñ">Portugues (PT)</a>
+            <a href="ñ">Alemão</a>
+            <a href="ñ">Françês</a>
+            <a href="ñ">Russo</a>
+            <a href="ñ">Mandarim</a>
+            <a href="ñ">Italiano</a>
+            <a href="ñ">Espanhol</a>
+        </div>
+
+        <div style="border: 0; padding-top: 15px;" class="center">
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+            <a href="ñ">Lorem Ipsum</a>
+        </div>
+    </section>
+
 </body>
+
 </html>

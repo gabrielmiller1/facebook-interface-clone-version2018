@@ -21,14 +21,16 @@ header{
 div.logo{
     float: left;
     color: white;
+    margin-top: 13px;
 }
 
 .logo h2{
-    font-size: 29px;
-    font-weight: normal;
+    font-size: 35px;
+    font-weight: bolder;
 }
 
 form.form-login{
+    top: 0px;
     float: right;
     margin-right: 10%;
 }
@@ -43,6 +45,11 @@ form.form-login{
     font-size: 14px;
 }
 
+div.span{
+    margin-left: 165px;
+    color: rgba(255, 255, 255,0.4);
+}
+
 .form-element input[type=email],
 input[type=password]{
     margin-top: 4px;
@@ -54,14 +61,14 @@ input[type=password]{
 .form-element input[type=submit]{
     cursor: pointer;
     border: 0;
-    background-color: #1969e5;
-    border: 2px solid #3b5998;
+    background-color: #3b5998;
+    border: 2px solid #0d1c3b;
     color: white;
     padding: 3px 5px;
 }
 
 .form-element input[type=submit]:hover{
-    background-color: #3b5998;
+    background-color: #587ecf;
     border: 1px solid black;
 }
 
@@ -70,9 +77,21 @@ section.main{
     padding: 40px 0;
 }
 
-.img-pessoas{
+div.frase{
+    display: block;
+    width: 48%;
+    padding-bottom: 15px;
+}
+
+div.frase{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+div.img-pessoas{
     float: left;
-    width: 50%;
+    width: 60%;
+    margin-top: 25px;
 }
 
 .img-pessoas img{
@@ -82,6 +101,14 @@ section.main{
 .abrir-conta{
     width: 40%;
     float: left;
+    margin-top: -100px;
+}
+
+.abrir-conta h3:first-child{
+    font-size: 28px;
+    color:  rgb(30,30,30);
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .abrir-conta h3{
@@ -117,9 +144,16 @@ form.criar-conta input[type="text"],
 form.criar-conta input[type="password"]{
     height: 40px;
     padding-left: 10px;
+    margin-left: -4px;
     font-size: 20px;
-    border: 1px solid #3b5998;
-    border-radius: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.frase2{
+    font-size: 14px;
+    color: #737373;
+    padding-bottom: 15px;
 }
 
 form.criar-conta input[type="submit"]{
@@ -131,4 +165,75 @@ form.criar-conta input[type="submit"]{
     max-width: 200px;
     font-size: 19px;
     border-radius: 4px;
+    margin-bottom: 29px;
+}
+
+form.criar-conta h3{
+    padding-top: 160px;
+}
+
+
+form .w100 h2{
+    margin-top: 10px;
+    color: #1d2129;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 160px;
+}
+
+form select.nascimento{
+    float: left;
+    margin-top: 8px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+form select.nascimento{
+    float: left;
+    margin-top: 8px;
+    padding: 5px
+}
+
+div.input-radio{
+    margin: 15px 0;
+    float: left;
+    margin-left: 10px;
+    padding-top: -100px;
+}
+
+.input-radio h2{
+    display: inline-block;
+    padding: 0px 0px 0px 0px !important;
+}
+
+.input-radio input[type=radio]{
+    width: auto ;
+    display: inline-block;
+}
+
+section.linguas{
+    padding: 30px 0;
+    background-color: white;
+}
+
+section.linguas a{
+    padding-right: 15px;
+    font-size: 13px;
+    color: #365899;
+    text-decoration: none;
+}
+
+section.linguas a.selected-lingua{
+    color: #737373;
+}
+
+section.linguas .center{
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc
+}
+
+div.span2 span{
+    color: black;
 }
